@@ -1,0 +1,178 @@
+.transactions-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page-header-card,
+.toolbar-card,
+.results-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.page-header-card {
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toolbar-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-secondary);
+}
+
+.search-field input,
+.field-label select,
+.field-label input,
+.field-label textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  color: inherit;
+  background: transparent;
+}
+
+.toolbar-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.field-label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 140px;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.field-label select {
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-secondary);
+}
+
+.ghost-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.results-card {
+  padding: 20px;
+}
+
+.results-header {
+  margin-bottom: 12px;
+  color: var(--color-text-secondary);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 12px 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.transaction-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.transaction-cell span {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 4px 10px;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+}
+
+.pill-income {
+  color: var(--color-success);
+  background: rgba(38, 166, 91, 0.12);
+}
+
+.pill-expense {
+  color: var(--color-danger);
+  background: rgba(214, 76, 65, 0.12);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.icon-button {
+  border: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: var(--color-surface-secondary);
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.positive {
+  color: var(--color-success);
+}
+
+.danger {
+  color: var(--color-danger);
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 28px 12px;
+}
+
+@media (max-width: 800px) {
+  .page-header-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
