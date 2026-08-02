@@ -1,10 +1,26 @@
 # BudgetFlow
 
-A polished personal budget planner built with React, Vite, React Router, Context API, LocalStorage, Recharts, and React Hook Form.
+BudgetFlow is a polished personal finance dashboard built with React, Vite, React Router, Context API, LocalStorage, Recharts, and React Hook Form. It is designed to feel like a production-ready portfolio project: clear structure, reusable UI, responsive layout, and a smooth user experience.
 
-BudgetFlow is a polished personal budget planner built with React, Vite, React Router, Context API, LocalStorage, Recharts, React Hook Form, and regular CSS. It is designed as a portfolio-ready continuation of the same React app style as ProjectFlow and Nova Store, but focused on personal finance planning.
+## Live Demo
 
-## Features
+- Demo: https://budget-flow-inky.vercel.app/
+- Repository: https://github.com/your-username/budgetflow
+
+## Demo Video
+
+<img src="dist/assets/demo.gif" width="100%">
+
+## What this project demonstrates
+
+- Clean React app structure with route-based pages
+- Shared state management through Context API
+- Local persistence with LocalStorage
+- Reusable finance utilities for calculations and formatting
+- Responsive UI for desktop and mobile screens
+- Polished visual design suitable for a portfolio presentation
+
+## Key Features
 
 - Dashboard with balance, income, expenses, and budget insights
 - Transaction management with add, edit, delete, details, search, filters, and sorting
@@ -27,21 +43,21 @@ BudgetFlow is a polished personal budget planner built with React, Vite, React R
 - Lucide React
 - CSS variables and reusable components
 
-## Installation
+## Run Locally
 
 ```bash
 npm install
+npm run dev
 ```
 
-## Commands
+## Build and Quality Checks
 
 ```bash
-npm run dev
 npm run build
 npm run lint
 ```
 
-## Folder Overview
+## Project Structure
 
 - src/components: reusable UI and feature-specific components
 - src/context: shared state providers for transactions, budgets, goals, and settings
@@ -49,13 +65,9 @@ npm run lint
 - src/utils: finance, formatting, date, and ID helpers
 - src/data: demo data for the first-run experience
 
-## Financial Calculations
+## Portfolio Notes
 
-BudgetFlow uses shared utility functions for balance, monthly income and expenses, remaining budget, budget usage percentages, goal progress, filtering, sorting, and currency formatting. These are centralized in the utils layer so the same calculations are reused by the dashboard and related screens.
-
-## Responsive Design
-
-The UI adapts to desktop, tablet, and mobile widths with a collapsible sidebar, stacked cards, and mobile-friendly forms and lists.
+This project was built with an emphasis on readability, consistent naming, reusable logic, and a user-friendly interface. It is a strong example of a frontend application that balances visual polish with practical functionality.
 
 ## Future Improvements
 
