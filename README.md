@@ -9,7 +9,7 @@ BudgetFlow is a polished personal finance dashboard built with React, Vite, Reac
 
 ## Demo Video
 
-<img src="src/assets/demo.gif" width="100%">
+<img src="src/assets/demo.gif" width="50%">
 
 ## What this project demonstrates
 
