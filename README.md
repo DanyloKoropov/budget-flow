@@ -5,7 +5,7 @@ BudgetFlow is a polished personal finance dashboard built with React, Vite, Reac
 ## Live Demo
 
 - Demo: https://budget-flow-inky.vercel.app/
-- Repository: https://github.com/your-username/budgetflow
+- Repository: [https://github.com//budgetflow](https://github.com/DanyloKoropov/budget-flow)
 
 ## Demo Video
 
